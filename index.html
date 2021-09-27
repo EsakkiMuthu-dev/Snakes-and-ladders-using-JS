@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes and Ladders</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <!-- step1: we have to create a table -->
+    <!-- step 2 :access a table to move anyplace we want -->
+    <!-- step 3: then create a dice that return random number to move -->
+    <!-- step 4 : add snakes and ladders on our game -->
+    <h1 >Snakes🐍 and Ladders💥</h1>
+    <h2 ><span id="chance" class="P1" style="color: rgb(20, 17, 202); font-weight: bold;">Player 1's Move</span></h2>
+    <h1><span id="results" style="font-weight: bolder;"></span></h1>
+    <div id='board'>
+
+    </div>
+    <div class="btn">
+        <button class="btn btn-primary"onclick='roll_dice()'>Roll Me</button>
+        <h2> <span id="dice_value"></span> </h2>
+        
+    </div>
+    <script src="./static/js/index.js"></script>
+</body>
+</html>
